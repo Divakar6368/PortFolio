@@ -45,7 +45,7 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
     technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Prisma"],
     liveUrl: "https://ecommerce-demo.com",
-    githubUrl: "https://github.com/johndoe/ecommerce",
+    githubUrl: "https://github.com/Divakar6368/LinkTree",
     features: [
       "Real-time inventory tracking",
       "Secure payment processing",
@@ -59,7 +59,7 @@ export const projects = [
     image: "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?w=800&h=600&fit=crop",
     technologies: ["React", "Node.js", "Redis", "MongoDB", "Judge0"],
     liveUrl: "https://taskmanager-demo.com",
-    githubUrl: "https://github.com/johndoe/taskmanager",
+    githubUrl: "https://github.com/Divakar6368/CodeX",
     features: [
       "AI Doubt Solver",
       "Real-time analysis",
@@ -69,11 +69,11 @@ export const projects = [
   },
   {
     title: "Blood Bank",
-    description: "Comprehensive social media analytics platform providing insights and engagement metrics across multiple platforms.",
+    description: "Blood Bank to help patients to provide blood as fast as possible",
     image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
     technologies: ["Vue.js", "Python", "D3.js", "AWS", "Redis"],
     liveUrl: "https://analytics-demo.com",
-    githubUrl: "https://github.com/johndoe/analytics",
+    githubUrl: "https://github.com/Divakar6368/Blood-Bank",
     features: [
       "Cross-platform analytics",
       "Custom report generation",

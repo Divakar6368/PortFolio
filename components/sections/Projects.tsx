@@ -44,12 +44,12 @@ const Projects = () => {
                                         className="object-cover group-hover:scale-110 transition-transform duration-300"
                                     />
                                     <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center gap-4">
-                                        <Button variant={"secondary"} size={'sm'} className="p-4">
+                                        {/* <Button variant={"secondary"} size={'sm'} className="p-4">
                                             <a href={project.liveUrl} target="_blank" rel="noopener noreferrer" className="gap-2">
                                                     <ExternalLink className="w-4 h-4"/>
                                                     Live Demo
                                             </a> 
-                                        </Button>
+                                        </Button> */}
                                          <Button variant={"secondary"} size={'sm'} className="p-4">
                                             <a href={project.githubUrl} target="_blank" rel="noopener noreferrer" className="gap-2">
                                                     <ExternalLink className="w-4 h-4"/>
