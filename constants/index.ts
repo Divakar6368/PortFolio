@@ -44,7 +44,7 @@ export const projects = [
     description:
       "A modern Link-in-Bio platform that allows users to create a personalized profile page and consolidate their social media links, portfolio, contact details, and external resources into one shareable link.",
     image:
-      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
+      "Bio.png",
     technologies: [
       "Next.js",
       "TypeScript",
@@ -68,7 +68,7 @@ export const projects = [
     description:
       "A full-stack coding and learning platform featuring an interactive Monaco code editor, Judge0-powered code execution, AI-assisted problem solving, video-based learning, and administrative tools.",
     image:
-      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
+      "Codex.png",
     technologies: [
       "React",
       "Node.js",
@@ -93,7 +93,7 @@ export const projects = [
     description:
       "A healthcare-focused web application that helps users discover blood bank information, explore available blood samples, and navigate a streamlined sample booking process.",
     image:
-      "https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=800&h=600&fit=crop",
+      "Bloodbank.png",
     technologies: [
       "React",
       "JavaScript",
