@@ -56,7 +56,7 @@ const HeroPage = () => {
                 Contact Me
               </a>
             </Button>
-            <Link href={"f"} target="_blank">
+            <Link href="https://github.com/Divakar6368" target="_blank">
               <Button variant={'outline'} className='gap-2'>
                 Github
               </Button>

@@ -14,14 +14,16 @@ import {
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { toast } from "sonner"
+import { submission } from "@/modules/handlesubmitform"
 
 const formSchema = z.object({
   name: z.string().min(2, "Name must be at least 2 characters"),
   email: z.string().email("Invalid email address"),
-  message: z.string().min(10, "Message must be at least 10 characters"),
+  message: z.string().min(10, "Message must be at least 10 characters").max(500, "Message must be at most 500 characters"),
 })
 
-type FormValues = z.infer<typeof formSchema>
+export type FormValues = z.infer<typeof formSchema>
+
 
 const ContactForm = () => {
   const {
@@ -39,8 +41,7 @@ const ContactForm = () => {
   })
 
   function onSubmit(values: FormValues) {
-    // backend logic here
-    console.log(values)
+    submission(values)
     toast.success("Message sent successfully.")
     reset()
   }
@@ -56,7 +57,7 @@ const ContactForm = () => {
               <FieldLabel htmlFor="name">Name</FieldLabel>
               <Input
                 id="name"
-                placeholder="Divakar Patel"
+                placeholder="Enter Your Name"
                 {...field}
               />
               {errors.name && (
@@ -75,7 +76,7 @@ const ContactForm = () => {
               <Input
                 id="email"
                 type="email"
-                placeholder="divakar@example.com"
+                placeholder="yourgmail@example.com"
                 {...field}
               />
               {errors.email && (

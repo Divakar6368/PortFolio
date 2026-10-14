@@ -41,44 +41,78 @@ export const testimonials = [
 export const projects = [
   {
     title: "Tree-Bio",
-    description: "A custom, self-hosted clone/alternative to Linktree—a web application designed to act as a single landing page consolidating multiple social media links, portfolios, contact details, and external resources into a unified profile link.",
-    image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
-    technologies: ["Next.js", "TypeScript", "Tailwind CSS", "Clerk", "Prisma"],
-    liveUrl: "https://ecommerce-demo.com",
+    description:
+      "A modern Link-in-Bio platform that allows users to create a personalized profile page and consolidate their social media links, portfolio, contact details, and external resources into one shareable link.",
+    image:
+      "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
+    technologies: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Clerk",
+      "Prisma"
+    ],
+    liveUrl: "",
     githubUrl: "https://github.com/Divakar6368/LinkTree",
     features: [
-      "Real-time inventory tracking",
-      "Secure payment processing",
-      "Admin dashboard",
-      "Order management"
+      "Personalized link-in-bio profiles",
+      "Secure authentication with Clerk",
+      "Database management with Prisma",
+      "Responsive and modern UI",
+      "Centralized social media and portfolio links"
     ]
   },
   {
-    title: "AI-Based Coding Plateform",
-    description: "Full-stack coding platform featuring Monaco Editor, Judge0 execution engine, AI problem solver, video learning hub, and admin dashboard.",
-    image: "https://images.unsplash.com/photo-1554774853-aae0a22c8aa4?w=800&h=600&fit=crop",
-    technologies: ["React", "Node.js", "Redis", "MongoDB", "Judge0"],
-    liveUrl: "https://taskmanager-demo.com",
+    title: "CodeX - AI Coding Platform",
+    description:
+      "A full-stack coding and learning platform featuring an interactive Monaco code editor, Judge0-powered code execution, AI-assisted problem solving, video-based learning, and administrative tools.",
+    image:
+      "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop",
+    technologies: [
+      "React",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Redis",
+      "Monaco Editor",
+      "Judge0"
+    ],
+    liveUrl: "",
     githubUrl: "https://github.com/Divakar6368/CodeX",
     features: [
-      "AI Doubt Solver",
-      "Real-time analysis",
-      "Video Solution & comments",
-      "Role Base Login"
+      "AI-powered coding doubt solver",
+      "Online code editor and execution",
+      "Video solutions and comments",
+      "Role-based authentication",
+      "Admin dashboard"
     ]
   },
   {
-    title: "Blood Bank",
-    description: "Blood Bank to help patients to provide blood as fast as possible",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop",
-    technologies: ["Vue.js", "Python", "D3.js", "AWS", "Redis"],
-    liveUrl: "https://analytics-demo.com",
+    title: "Blood Bank - Sample Booking Platform",
+    description:
+      "A healthcare-focused web application that helps users discover blood bank information, explore available blood samples, and navigate a streamlined sample booking process.",
+    image:
+      "https://images.unsplash.com/photo-1615461066841-6116e61058f4?w=800&h=600&fit=crop",
+    technologies: [
+      "React",
+      "JavaScript",
+      "Redux Toolkit",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Axios",
+      "Framer Motion"
+    ],
+    liveUrl: "",
     githubUrl: "https://github.com/Divakar6368/Blood-Bank",
     features: [
-      "Cross-platform analytics",
-      "Custom report generation",
-      "Engagement tracking",
-      "Trend analysis"
+      "Blood bank information and discovery",
+      "Blood group and sample availability",
+      "Sample booking workflow",
+      "User medical information management",
+      "Booking limit validation",
+      "Responsive healthcare-focused interface"
     ]
   }
 ];

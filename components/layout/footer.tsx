@@ -2,9 +2,11 @@
 
 import { Button } from "@/components/ui/button";
 import { Mail, Heart } from "lucide-react";
+import { FaGithub } from "react-icons/fa";
+import { BsLinkedin } from "react-icons/bs";
 
 
-import { motion } from "framer-motion";
+
 
 export function Footer() {
   return (
@@ -19,17 +21,17 @@ export function Footer() {
             </p>
             <div className="flex gap-4">
               <Button variant="outline" size="icon">
-                <a href="https://github.com" target="_blank" rel="noopener noreferrer">
-                  <Mail className="w-4 h-4" />
+                <a href="https://github.com/Divakar6368" target="_blank" rel="noopener noreferrer">
+                  <FaGithub className="w-4 h-4" />
                 </a>
               </Button>
               <Button variant="outline" size="icon">
-                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
-                  <Mail className="w-4 h-4" />
+                <a href="https://www.linkedin.com/in/divakar-patel-09a264333" target="_blank" rel="noopener noreferrer">
+                  <BsLinkedin className="w-4 h-4" />
                 </a>
               </Button>
               <Button variant="outline" size="icon">
-                <a href="mailto:john@example.com">
+                <a href="mailto:divakar.dev.fullstack@gmail.com">
                   <Mail className="w-4 h-4" />
                 </a>
               </Button>
@@ -66,16 +68,16 @@ export function Footer() {
             <h4 className="font-semibold mb-4">Contact</h4>
             <ul className="space-y-2">
               <li className="text-muted-foreground">
-                San Francisco, CA
+                Divakar Patel
               </li>
               <li>
-                <a href="mailto:john@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-                  john@example.com
+                <a href="mailto:divakar.dev.fullstack@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+                  divakar.dev.fullstack@gmail.com
                 </a>
               </li>
               <li>
-                <a href="tel:+1234567890" className="text-muted-foreground hover:text-primary transition-colors">
-                  +1 (234) 567-890
+                <a href="tel:+919625197882" className="text-muted-foreground hover:text-primary transition-colors">
+                  +91 9625197882
                 </a>
               </li>
             </ul>
@@ -84,7 +86,7 @@ export function Footer() {
 
         <div className="border-t mt-12 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-sm text-muted-foreground">
-            © {new Date().getFullYear()} John Doe. All rights reserved.
+            © {new Date().getFullYear()} Divakar Patel. All rights reserved.
           </p>
           <p className="text-sm text-muted-foreground flex items-center gap-1">
             Made with <Heart className="w-4 h-4 text-red-500" /> using Next.js
