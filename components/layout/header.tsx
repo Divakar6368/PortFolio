@@ -48,8 +48,8 @@ const Header = () => {
 
 
                         <a
-                            href="/Divakar_Resume.pdf"
-                            download="Divakar_Resume.pdf"
+                            href="/Divakar_Patel_Resume.pdf"
+                            download="Divakar_Patel_Resume.pdf"
                         >
                             <Button variant="default" size="sm" className="gap-2">
                                 <Download className="w-4 h-4" />
@@ -99,8 +99,8 @@ const Header = () => {
                                     ))
                                 }
                                 <a
-                                    href="/Divakar_Resume.pdf"
-                                    download="Divakar_Resume.pdf"
+                                    href="/Divakar_Patel_Resume.pdf"
+                                    download="Divakar_Patel_Resume.pdf"
                                 >
                                     <Button variant="default" size="sm" className="gap-2">
                                         <Download className="w-4 h-4" />
